@@ -33,5 +33,22 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.navbar ul li::after{
+  content: empty;
+  height: 3px;
+  width: 0;
+  background: #42adf5;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li::hover::after{
+  width: 100%;
+}
+  
+  
   
 
