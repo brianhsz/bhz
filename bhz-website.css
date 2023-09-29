@@ -36,12 +36,12 @@
 
 .navbar ul li::after{
   content: '';
-  height: 3px;
+  height: 4px;
   width: 100%;
-  background: #ffffff;
+  background: #009688;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -10px;
 }
   
   
